@@ -1,0 +1,8 @@
+#Displaying the values of historical data
+SELECT * from RAW.STOCK_PRICES_STG ORDER BY DATE DESC;
+
+#Displaying the values of predicted data
+SELECT * FROM ANALYTICS.STOCK_FORECAST_7D
+
+#Displaying the union table
+SELECT * FROM ANALYTICS.STOCK_PRICES_FINAL  ORDER BY DATE DESC;
